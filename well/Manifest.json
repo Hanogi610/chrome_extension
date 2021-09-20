@@ -1,0 +1,19 @@
+{
+    "manifest_version": 2,
+    "version": "1.0",
+    "name": "Test Product",
+    "browser_action": {
+        "default_popup": "index.html",
+        "default_icon":"picture/hehhe.png"
+    },
+    "permissions":[
+        "tabs"
+    ],
+    "content_scripts":
+    [
+        {
+            "matches": ["http://*/*", "https://*/*"],
+            "js": ["js/index.js"]
+        }
+    ]
+}

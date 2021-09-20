@@ -1,0 +1,34 @@
+body{
+    margin: 0px;
+    padding: 10px;
+    font-family: sans-serif;
+    min-width: 400px;
+}
+#input-oh {
+    margin-bottom: 4px;
+    padding: 7px;
+}
+#input-btn {
+    background-color: #5f9341;
+    color: white;
+    padding: 7px;
+}
+#delete-btn {
+    background-color: white;
+    color: #5f9341;
+    border: 1px solid black;
+}
+#tab-btn{
+    background-color: #5f9341;
+    color: white;
+}
+#ul-oh {
+    padding-left: 0%;
+    list-style: none;
+    a {
+        color: #5f9341;
+    }
+    li {
+        margin-top: 2px;
+    }
+}
